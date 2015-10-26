@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="75dp"
+    android:id="@+id/apobar"
+    android:background="@mipmap/chat_back">
+
+    <ImageView android:id="@+id/imgIcon"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="16dp"
+        android:scaleType="centerCrop"
+        android:text="cas"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/esasbolge">
+    <TextView android:id="@+id/txtTitle"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="abdurrahmannnnnnnn"
+        android:typeface="normal"
+        android:maxLength="@android:integer/config_shortAnimTime"
+        android:elegantTextHeight="false" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageButton2"
+            android:src="@mipmap/heartsonn"
+            android:background="#00000000"
+            android:layout_alignBottom="@+id/imageButton3"
+            android:layout_toStartOf="@+id/imageButton3" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton3"
+            android:src="@mipmap/bbbbbbbb"
+            android:background="#00000000"
+            android:layout_gravity="bottom|center"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
