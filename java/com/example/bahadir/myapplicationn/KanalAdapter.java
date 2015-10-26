@@ -23,7 +23,7 @@ import java.util.ArrayList;
 
 
 public class KanalAdapter extends BaseAdapter {
-    String deneme;
+    String denemeasd;
     Context context;
     String charset;
     String query;
